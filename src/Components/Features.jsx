@@ -58,8 +58,11 @@ flex-direction: row-reverse;
 const Content = styled.div`
 flex:1;
 margin-left: 3rem;
+
 @media (max-width: 768px){
-    
+    display: flex;
+flex-direction: column;
+align-items: center;
 }
 `
 const Title = styled.h2`
